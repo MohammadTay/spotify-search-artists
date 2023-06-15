@@ -1,0 +1,95 @@
+.albumContainer {
+  display: flex;
+  border: 1px solid rgb(225, 225, 225);
+  flex-direction: column;
+}
+
+.albumCard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.albumList {
+  flex: 1 1 21%;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  margin: 0;
+  position: relative;
+  font-size: 10px;
+  justify-content: space-between;
+}
+.albumImage {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 50%;
+  margin: 0;
+  top: 15px;
+  flex-direction: column;
+  display: flex;
+}
+
+.truncate {
+  position: absolute;
+}
+.albumName {
+  position: absolute;
+  margin: 0;
+  top: 140px;
+  left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: blue;
+}
+.albumId {
+  font-weight: 300;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  color: blue;
+}
+.albumTracks {
+  font-weight: 300;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: blue;
+}
+.artName {
+  display: flex;
+  font-weight: 300;
+  width: 150px;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  color: rgb(238, 114, 47);
+  flex-direction: row;
+}
+
+.artistName {
+  margin-right: 10px;
+}
+.albumDate {
+  font-weight: 300;
+  width: 150px;
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  color: blue;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.albumLink {
+  font-weight: 300;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: red;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
